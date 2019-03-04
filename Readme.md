@@ -5,8 +5,10 @@ Prerequisites:
 
 ##Create a file called ~/.github which has two values:
 
-`login=<username>
-password=<password>`
+```
+login=<username>
+password=<password>
+```
 
 or a single token:
 
@@ -16,4 +18,4 @@ or a single token:
 
 ##How to run:
 To run this on CLI use:
-    `mvn compile exec:java -Dexec.args=<username>`
+    ```mvn compile exec:java -Dexec.args=<username>```
