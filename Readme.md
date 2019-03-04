@@ -1,19 +1,19 @@
 
 Prerequisites:
-**Requires Maven
-**Requires Java8 or higher
+*Requires Maven
+*Requires Java8 or higher
 
-**Create a file called ~/.github which has two values:
+##Create a file called ~/.github which has two values:
 
-login=<username>
-password=<password>
+`login=<username>
+password=<password>`
 
 or a single token:
 
-oauth=<token>
+`oauth=<token>`
 
 
 
-**How to run:
+##How to run:
 To run this on CLI use:
-    mvn compile exec:java -Dexec.args=<username>
+    `mvn compile exec:java -Dexec.args=<username>`
